@@ -10,3 +10,18 @@ Dockerをインストール
 yum -y install docker
 systemctl start docker
 ```
+コンテナ作成
+```
+docker build -t jenkins .
+docker run -d --privileged -p 8080:8080 --name jenkins jenkins /sbin/init
+docker exec -it jenkins cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+jenkins初期ログイン
+```
+http://【IP】:8080
+```
+
+# Jenkins設定
+
+# GitHub設定
+
