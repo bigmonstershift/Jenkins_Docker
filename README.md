@@ -23,6 +23,7 @@ jenkins初期ログイン
 ```
 http://【IP】:8080
 ```
+![jenkins](https://user-images.githubusercontent.com/53789788/87879709-7b562580-ca27-11ea-972b-f6d66ed5a8d4.png)
 
 # Jenkins設定
 ### APIトークン
